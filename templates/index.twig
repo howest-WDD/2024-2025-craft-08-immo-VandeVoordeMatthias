@@ -97,7 +97,7 @@
 								<img
 								src={{house.cover.one().url()}} alt="" class="c-immo-card__img">
 								<!-- todo: Zorg dat de kleur veranderd dmv c-immo-card__tag--rent toe te passen wanneer iets for rent staat  -->
-								<div class="c-immo-card__tag {{ house.state == 'Rent' ? 'c-immo-card__tag--rent' : 'c-immo-card__tag--sale' }}">
+								<div class="c-immo-card__tag c-immo-card__tag--{{ house.state|lower }}">
 									<p>For
 										{{house.state}}</p>
 								</div>
