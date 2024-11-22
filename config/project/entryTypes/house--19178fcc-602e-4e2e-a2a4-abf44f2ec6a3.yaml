@@ -52,6 +52,22 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2024-11-22T10:21:56+00:00'
+            elementCondition: null
+            fieldUid: 0dfd5125-6506-4666-9928-c9721f9a8d3b # City
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 14a2f413-2f92-459f-a33c-f59db5c54f5c
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2024-11-18T15:29:45+00:00'
             elementCondition: null
             fieldUid: 35c35080-108d-485f-925f-407a5ab65a22 # Cover
